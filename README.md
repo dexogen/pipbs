@@ -13,6 +13,8 @@ Based on the excellent script of [wofferl](https://github.com/wofferl/proxmox-ba
 
 ## Installation
 
+> Note: Proxmox Backup Server now requires Debian 13 (Trixie) or distributions based on it.
+
 ### Set up the repository
 
 1. Update the apt package index and install packages to allow apt to use a repository over HTTPS:
@@ -44,9 +46,6 @@ Based on the excellent script of [wofferl](https://github.com/wofferl/proxmox-ba
     sudo apt install -y raspberrypi-kernel-headers pv zfs-initramfs zfsutils-linux
     sudo apt install -y proxmox-backup-server
     ```
-## Repo tree
-
-*Only shows up on GitHub Pages.*
 
 <!--GAMFC-->
 <!--GAMFC-END-->
