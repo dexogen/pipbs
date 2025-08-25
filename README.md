@@ -13,7 +13,7 @@ Based on the excellent script of [wofferl](https://github.com/wofferl/proxmox-ba
 
 ## Installation
 
-> Note: Proxmox Backup Server now requires Debian 13 (Trixie) or distributions based on it.
+> **Note:** Starting from version **4.0**, Proxmox Backup Server requires **Debian 13 (Trixie)** or distributions based on it.
 
 ### Set up the repository
 
@@ -46,6 +46,9 @@ Based on the excellent script of [wofferl](https://github.com/wofferl/proxmox-ba
     sudo apt install -y raspberrypi-kernel-headers pv zfs-initramfs zfsutils-linux
     sudo apt install -y proxmox-backup-server
     ```
+## Debug
+
+If you encounter issues, first check the [Help section](https://github.com/wofferl/proxmox-backup-arm64?tab=readme-ov-file#help-section) and consult the official [Proxmox Backup Server documentation](https://pbs.proxmox.com/docs/installation.html).
 
 <!--GAMFC-->
 <!--GAMFC-END-->
