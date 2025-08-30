@@ -11,7 +11,7 @@ permissions:
 
 env:
   REPO_NAME: pipbs
-  CODENAME: bookworm
+  CODENAME: trixie
   COMPONENTS: main
   ARCHITECTURES: arm64
 
